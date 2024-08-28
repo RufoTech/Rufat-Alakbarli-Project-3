@@ -1,0 +1,124 @@
+body{
+  background-color: #9a53d6 !important;
+}
+
+.nav-link{
+  font-size: 20px !important;
+  font-weight: 620 !important;
+}
+
+.account-div{
+  width: 149px;
+  background-color: #a667db;
+  height: 42px;
+  border-radius: 20px;
+}
+.acan{
+  padding-left: 20px;
+}
+.account-div h5{
+  margin-left: 26px;
+
+}
+.nav-link{
+  margin-left: 15px;
+}
+.nav-item{
+  margin-right: 40px;
+}
+.navbar-collapse{
+  margin-top: 32px;
+}
+.down{
+  margin-top: 3px;
+  
+}
+.menus{
+  position: absolute;
+  right: 50px;
+  margin-top: 14px;
+}
+.figure-left-side h1{
+  font-weight: 700;
+  font-size: 75px;
+}
+.side{
+  visibility: hidden;
+}
+
+.figure{
+  margin-top: 150px !important;
+}
+.buta{
+  background-color: transparent;
+  border: 2px solid #fff !important;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 55px;
+
+}
+.player{
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.player {
+  margin-left: 30px;
+}
+.player-linear{
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+  margin-left: 20px !important;
+}
+.demo{
+  margin-top: 3px;
+}
+
+
+.klas-1,.klas-3,.klas-4{
+  width: 500px !important;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+}
+.klas-2{
+  width: 750px !important;
+  position: absolute;
+  right: 15px;
+}
+.searchs{
+  width: 500px;
+}
+
+.mySwiper {
+  height: 1000px !important;
+  margin-top: -100px;
+}
+
+/* Pagination noktalarının normal rengi */
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin:50px !important ;
+
+}
+
+/* Aktif pagination noktalarının rengi */
+.swiper-pagination-bullet-active {
+  background-color: blue;
+}
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari ve diğer WebKit tabanlı tarayıcılar */
+}
+
+@media(max-width:400px ){
+  .klas-1{
+    margin-top: 100px !important;
+  }
+
+}
